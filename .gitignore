@@ -1,11 +1,30 @@
-# 忽略 Python 虛擬環境
+# --- Python 相關 ---
+# 虛擬環境
 .venv/
+env/
 venv/
 ENV/
 
-# 忽略 Python 產生的快取資料
+# Python 執行暫存檔案
 __pycache__/
 *.py[cod]
+*$py.class
 
-# 忽略 IDE (VS Code) 的個人設定
+# --- 數據檔案 (選用) ---
+# 如果你不希望將執行後的結果上傳，可以取消下方註解
+# public/games_data.json
+*.csv
+*.log
+
+# --- 前端與編輯器相關 ---
+# 開發工具設定
 .vscode/
+.idea/
+
+# 作業系統暫存檔
+.DS_Store
+Thumbs.db
+
+# --- 其它 ---
+# 排除任何可能的環境變數設定檔
+.env
