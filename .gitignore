@@ -1,0 +1,11 @@
+# 忽略 Python 虛擬環境
+.venv/
+venv/
+ENV/
+
+# 忽略 Python 產生的快取資料
+__pycache__/
+*.py[cod]
+
+# 忽略 IDE (VS Code) 的個人設定
+.vscode/
